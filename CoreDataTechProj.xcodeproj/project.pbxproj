@@ -14,6 +14,8 @@
 		32C5C1AB24C2CB8A005F95F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C1AA24C2CB8A005F95F6 /* Assets.xcassets */; };
 		32C5C1AE24C2CB8A005F95F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C1AD24C2CB8A005F95F6 /* Preview Assets.xcassets */; };
 		32C5C1B124C2CB8A005F95F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C5C1AF24C2CB8A005F95F6 /* LaunchScreen.storyboard */; };
+		32C5C1BA24C360C0005F95F6 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5C1B824C360C0005F95F6 /* Movie+CoreDataClass.swift */; };
+		32C5C1BB24C360C0005F95F6 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5C1B924C360C0005F95F6 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		32C5C1AD24C2CB8A005F95F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32C5C1B024C2CB8A005F95F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32C5C1B224C2CB8A005F95F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C5C1B824C360C0005F95F6 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		32C5C1B924C360C0005F95F6 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		32C5C1A024C2CB89005F95F6 /* CoreDataTechProj */ = {
 			isa = PBXGroup;
 			children = (
+				32C5C1B824C360C0005F95F6 /* Movie+CoreDataClass.swift */,
+				32C5C1B924C360C0005F95F6 /* Movie+CoreDataProperties.swift */,
 				32C5C1A124C2CB89005F95F6 /* AppDelegate.swift */,
 				32C5C1A324C2CB89005F95F6 /* SceneDelegate.swift */,
 				32C5C1A824C2CB89005F95F6 /* ContentView.swift */,
@@ -152,6 +158,8 @@
 				32C5C1A224C2CB89005F95F6 /* AppDelegate.swift in Sources */,
 				32C5C1A724C2CB89005F95F6 /* CoreDataTechProj.xcdatamodeld in Sources */,
 				32C5C1A924C2CB89005F95F6 /* ContentView.swift in Sources */,
+				32C5C1BA24C360C0005F95F6 /* Movie+CoreDataClass.swift in Sources */,
+				32C5C1BB24C360C0005F95F6 /* Movie+CoreDataProperties.swift in Sources */,
 				32C5C1A424C2CB89005F95F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
